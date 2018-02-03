@@ -1,0 +1,18 @@
+div.nospace{
+    border-radius: 5%;
+    border: 1px black;
+    background: #e7e0ced7;
+    text-align: center;
+    width: 98%;
+    padding: 10px;
+}
+
+div.topspace{
+    margin-top: 20px;
+    width: 99%;
+    padding: 15px;
+    border-radius: 5%;
+    border: 1px black;
+    background: #e7e0ced7;
+    text-align: center;
+}
