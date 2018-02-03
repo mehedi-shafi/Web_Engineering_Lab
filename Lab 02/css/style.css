@@ -1,0 +1,32 @@
+h1{
+    color: rgb(59, 58, 58);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: .5in;
+}
+a{
+    color: rgb(59, 58, 58);
+    text-decoration: underline;
+}
+a :visited{
+    color: black;
+    text-decoration: none;
+}
+ul :hover{
+    background: rgb(240, 239, 206);
+}
+ol :hover{
+    background: rgb(240, 239, 206);
+}
+p{
+    font-size: 0.2in;
+    color: rgb(59, 58, 58);
+}
+ /* table{
+    border-collapse: collapse;
+    border: 1px black;
+}
+table tr,th,td{
+    padding: 4%;
+    width: 50px;
+    border: 1px solid black;
+}  */
