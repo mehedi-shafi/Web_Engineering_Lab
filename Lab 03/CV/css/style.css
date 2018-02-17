@@ -1,0 +1,50 @@
+div.sidebar{
+    width: 30%;
+    max-width: 30%;
+    display: block;
+    height: 720px;
+    background-image: url('https://cdn-images-1.medium.com/max/1600/1*ZfKxion7POJQUi2m9DKwnA.jpeg');
+    background-repeat: no-repeat;
+    z-index: 999;
+    position: fixed;
+}
+
+div.content{
+    width: 100%;
+    display: block;
+}
+img.profile_circle{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    left: 30%;
+    margin-top: 30%;
+}
+.sidebar h3{
+    color: white;
+    text-align: center;
+}
+.sidebar blockquote{
+    color: rgb(233, 227, 227);
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div.social-links img{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+div.social-links{
+    margin-left: 30px;
+}
+div.cv{
+    position: absolute;
+    left: 35%;
+    top: 0%;
+}
+div.project h4, p{
+    font-family: Arial, Helvetica, sans-serif;
+}

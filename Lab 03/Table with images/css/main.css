@@ -1,0 +1,26 @@
+h1{
+    color: rgb(36, 35, 35);
+}
+div.content{
+    width: 100%;
+    align-content: center;
+    border: 2px solid #242323;
+    box-shadow: #5a5858;
+    text-align: center;
+}
+div.table{
+    text-align: center;
+    width: 250px;
+}
+div.table td{
+    padding: 10px;
+}
+div.table img{
+    height: 100px;
+    width: 100px;
+}
+span{
+    color: rgb(36, 35, 35);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class="content">
+        <h1>Enter your details to continue</h1>
+        <div class="form">
+            <form action="form/index.php">
+                <div class="input-group">
+                    <span>User Name: </span> 
+                    <input class="form-control" type="text" placeholder="Enter your name" required name="username">
+                </div>
+                <div class="input-group">
+                    <span>Password: </span> 
+                    <input class="form-control" type="password" placeholder="password" required name="password">
+                </div>
+                <div class="input-group">
+                    <span>Confirm Password: </span> 
+                    <input class="form-control" type="text" placeholder="Confirm Password" name="Confirm Password" required>
+                </div>
+                <div class="input-group">
+                    <span>Gender:</span>
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                </div>
+
+                <div class="input-group">
+                    <span>Birthday</span>
+                    <input class="form-control" type="date" name="bday">
+                </div>
+                <div class="input-group">
+                    <span>Game Time:</span>
+                    <input class="form-control" type="time" name="game_time">                    
+                </div>
+                
+                <div class="input-group">
+                    <span>Email:</span>
+                    <input class="form-control" type="email" name="email" required>                    
+                </div>
+
+                
+                <div class="input-group">
+                    <span>Website</span>
+                    <input class="form-control" class="form-control" type="text" name="website">                    
+                </div>
+                
+                <div class="input-group">
+                    <span>Phone:</span>
+                    <input class="form-control" type="text" name="phone">                    
+                </div>
+
+                <div class="input-group">
+                    <span>Cost</span>
+                    <input class="form-control" type="number" name="cost">                    
+                </div>
+                
+                <div class="input-group">
+                    <textarea name="comment" id="" cols="30" rows="10"></textarea>                
+                </div>
+
+                <div class="input-group">
+                    <input type="button" id="submit-button" class="btn btn-success" value="Submit!">
+                    <input type="button" id="clear_button" class="btn btn-danger" value="Clear">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="js/main.js"></script>        
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
