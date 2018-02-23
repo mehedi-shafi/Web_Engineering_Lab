@@ -2,10 +2,11 @@ div.sidebar{
     width: 30%;
     max-width: 30%;
     display: block;
-    height: 720px;
+    height: 100%;
     background-image: url('https://cdn-images-1.medium.com/max/1600/1*ZfKxion7POJQUi2m9DKwnA.jpeg');
     background-repeat: no-repeat;
     z-index: 999;
+    background-size: cover;
     position: fixed;
 }
 
